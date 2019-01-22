@@ -1,0 +1,6 @@
+#!/usr/bin/python2
+import sys
+filename=sys.argv[1]
+f=open(filename,'r')
+f.read()
+f.close()

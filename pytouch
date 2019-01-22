@@ -1,0 +1,10 @@
+#!/usr/bin/python2
+import os,sys
+f=sys.argv[1:]
+for i in f:
+	if os.path.isdir(i):
+		print 
+	elif os.path.isfile(i):
+		print 'file already exist'
+	else:
+		os.mkdir(i)
