@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 import os
 path=os.getcwd()
-file=os.lisdir(path)
-for i in lisdir:
+file=os.listdir(path)
+for i in file:
 	print i +" "
