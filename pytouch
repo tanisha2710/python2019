@@ -3,7 +3,7 @@ import os,sys
 f=sys.argv[1:]
 for i in f:
 	if os.path.isdir(i):
-		print 
+		os.system('touch '+i)
 	elif os.path.isfile(i):
 		print 'file already exist'
 	else:
